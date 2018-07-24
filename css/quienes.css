@@ -1,0 +1,60 @@
+img{
+    width: 100%;
+    
+}
+nav{
+    background: #099085
+}
+.menu{
+    text-align: center;
+    margin: 0
+}
+.menu li{
+    display: inline-block
+}
+.menu a{
+    padding: 45px;
+    color: white;
+    text-decoration: none;
+    display: block
+}
+.menu a:hover{
+    background: #0CAA9D
+}
+
+#contenedor{
+    width: 1310px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+#contenedor ul{
+    list-style: none;
+    width: 4510px;
+    display: flex;
+    
+    animation: slide 20s infinite alternate;
+}
+
+@keyframes slide{
+    0% {margin-left: 0px;}
+    25% {margin-left: 0px;}
+    
+    30% {margin-left: -1310px;}
+    55% {margin-left: -1310px;}
+    
+    60%{margin-left: -2620px;}
+    100%{margin-left: -2620px;}
+}
+
+
+.zoom img{
+    height: 100px;
+    width: 150px;
+    margin: 0px 0;
+    transition: all 3s ease;
+}
+.zoom img:hover{
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
